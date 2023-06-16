@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Proxima-Nova";
+}
+
+@font-face {
+    font-family: "Proxima-Nova";
+    src: url('Proxima-Nova.otf') format('truetype');
+}
+
+/* @font-face {
+    font-family: "Proxima-Nova";
+    src: url('Proxima-Nova.otf') format('truetype');
+} */
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+body{
+    background: url(assets/bread.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 64px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    font-weight: 900;
+    font-size: 2.4rem;
+    padding-left: 13px;
+    text-transform: lowercase;
+}
+
+.search{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: white;
+    padding: 8px 10px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.search-icon-2{
+    display: none;
+}
+
+.search input{
+    padding-left: 0.625em;
+    /* overflow: hidden; */
+    width: 50rem;
+}
+
+.search-input{
+    padding-left: 0 auto;
+}
+
+.search-input .input{
+    border: none;
+    outline: none;
+}
+
+
+
+.log{
+    cursor: pointer;
+    display: flex;
+    /* color: black; */
+    padding-right: 25px;
+    align-items: center;
+}
+
+.log a{
+    padding-right: 10px;
+    color: white;
+}
+
+.button-up{
+    border-radius: 3px;
+    padding: 9px 14px;
+    background-color: white;
+}
+
+.text-up{
+    font-weight: bolder;
+    color: black;
+}
+
+.text-up:hover{
+    color: black;
+    opacity: 0.6;
+}
+
+
+
+
+.container-2{
+    height: 500px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-areas: satu;
+    color: white;
+}
+
+.mid{
+    /* margin-top: 80px; */
+    text-align: center;
+    font-size: 3.44rem;
+}
+
+.juga{
+    margin: 30px 0px;
+    text-align: center;
+}
+
+
+/* .tombol{
+    height: 64px;
+    width: 200px;
+    justify-self: center;
+    margin-top: 50px;
+} */
+
+.start{
+    justify-self: center;
+}
+
+
+.free{
+    width: 200px;
+    height: 64px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+}
+
+.tombol{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin: 0 auto;
+    color: black;
+}
+
+.tombol:hover{
+    color: black;
+    opacity: 0.6;
+}
+
+footer{
+    height: 56px;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    align-content: center;
+    /* justify-content: center; */
+}
+
+.sosmed{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    /* color: blue; */
+    color: white;
+    padding: 0px 50px;
+}
+
+.kedip{
+    cursor: pointer;
+    color: #FFFFFF99;
+}
+
+.kedip:hover{
+    color: white;
+}
+
+@media screen and (max-width:1080px) {
+    .search{
+        display: none;
+    }
+
+    .search-icon-2{
+        display: inline;
+        color: white;
+        margin-right: 15px;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .sosmed{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .juga{
+        display: none;
+    }
+    .button-up{
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width:487px) { 
+    .container{
+        min-height: 100%;
+        display: block;
+    }
+    .sosmed{
+        /* min-height: 100%; */
+        display: block;
+    }
+    .logo{
+        font-size: 1.2rem;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .search{
+        background-color: blue;
+    }
+}
