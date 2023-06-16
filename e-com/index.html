@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="assets/images/Assets/anteraja.png">
+
+    <title>Boni commerse</title>
+</head>
+<body>
+    <div class="chat fa fa-brands fa-square-whatsapp" onclick="chat()"></div>
+    <header>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="nav-icon fa fa-home"></span>
+                    <span class="nav-text">Home</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="nav-icon fa-sharp fa-solid fa-basket-shopping"></span>
+                    <span class="nav-text">Product</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/category.html" class="nav-link">
+                    <span class="nav-icon fa-sharp fa-solid fa-magnifying-glass"></span>
+                    <span class="nav-text">Category</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="nav-icon fa-sharp fa-solid fa-address-book"></span>
+                    <span class="nav-text">Contact</span>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <!-- Section page - Product List -->
+        <div class="container">
+            <h2 class="title">Category Product</h2>
+            <!-- Row/Baris -->
+            <div class="row">
+             <!-- column/kolom -->
+                <div class="col" onclick="buy('Baju Lebaran', 15000)">
+                    <img src="assets/images/Assets/product-1.jpg" alt="baju lebaran">
+                     <p class="barang">Ellipsesinc - Kaos Oversize pria Wanita asdfhjbasdf</p>
+                    <br>
+                    <span class="harga"><b><h3>Rp15.000</h3></b></span> 
+                    <br>
+                    <div class="kedip">
+                       <h3>Buy</h3>
+                    </div>
+                </div>
+                
+                
+                <div class="col" onclick="buy('Sepatu Jumatan', 17000)">
+                    <img src="assets/images/Assets/product-2.jpg" alt="">
+                    <p class="barang">Nike air force one shadow aura zsdfsadgfdsfgsdf</p>
+                    <br>
+                    <span class="harga"><b><h3>Rp180.000</h3></b></span>
+                    <br>
+                    <div class="kedip">
+                       <h3>Buy</h3>
+                    </div>
+                    
+                </div>
+                <div class="col" onclick="buy('Celana Tahun Baru', 19000)">
+                    <img src="assets/images/Assets/product-3.jpg" alt="">
+                    <p class="barang">Celana panjang Pria long chino</p>
+                    <br>
+                    <span class="harga"><b><h3>Rp80.000</h3></b></span>
+                    <br>
+                    <div class="kedip">
+                       <h3>Buy</h3>
+                    </div>
+                    
+                </div>
+                <div class="col" onclick="buy('Baju Pergi', 18000)">
+                    <img src="assets/images/Assets/product-4.jpg" alt="">
+                    <p class="barang">T-shirt kaos rohani</p>
+                    <br>
+                    <span class="harga"><b><h3>Rp70.000</h3></b></span>
+                    <div class="kedip">
+                       <h3>Buy</h3>
+                    </div>
+                    
+                </div>
+                <div class="col" onclick="buy('Sepatu Gaol',25000)">
+                    <img src="assets/images/Assets/product-5.jpg" alt="">
+                    <p class="barang">Nike air force one untility mid</p>
+                    <br>
+                    <span class="harga"><b><h3>Rp195.000</h3></b></span>
+                    <div class="kedip">
+                       <h3>Buy</h3>
+                    </div>
+                    
+                </div>
+                <div class="col" onclick="buy('Baju Olahraga', 26000)">
+                    <img src="assets/images/Assets/product-6.jpg" alt="">
+                    <p class="barang">Kaos Polos Dri-fit New states appare</p>
+                    <br>
+                    <span class="harga"><b><h3>Rp47.000</h3></b></span>
+                    <div class="kedip">
+                       <h3>Buy</h3>
+                    </div>
+                    
+                </div>
+                <div class="col" onclick="buy('Kaos Kaki', 17000)">
+                    <img src="assets/images/Assets/product-7.jpg" alt="">
+                    <p class="barang">Kaos Kaki panjang original</p>
+                    <br>
+                    <span class="harga"><b><h3>Rp7.000</h3></b></span>
+                    <div class="kedip">
+                       <h3>Buy</h3>
+                    </div>
+                    
+                </div>
+                <div class="col" onclick="buy('Jam Tangan Black', 29000)">
+                    <img src="assets/images/Assets/product-8.jpg" alt="">
+                    <p class="barang">BIDEN Jam Tangan Pria Multifungsi</p>
+                    <br>
+                    <span class="harga"><b><h3>Rp130.000</h3></b></span>
+                    <div class="kedip">
+                       <h3>Buy</h3>
+                    </div>
+                    
+                </div>
+                <div class="col" onclick="buy('Jam Tangan Pergi', 29000)">
+                    <img src="assets/images/Assets/product-9.jpg" alt="">
+                    <p class="barang">Casio Murah Anti Air</p>
+                    <br>
+                    <span class="harga"><b><h3>Rp15.000</h3></b></span>
+                    <div class="kedip">
+                       <h3>Buy</h3>
+                    </div>
+                    
+                </div>
+                <div class="col" onclick="buy('Sepatu Running',  15000)">
+                    <img src="assets/images/Assets/product-10.jpg" alt="">
+                    <p class="barang">Lite sepatu running original</p>
+                    <br>
+                    <span class="harga"><b><h3>Rp514.000</h3></b></span>
+                    <div class="kedip">
+                       <h3>Buy</h3>
+                    </div>
+                    
+                </div>
+                <div class="col" onclick="buy('Sepatu Santuy', 17000)">
+                    <img src="assets/images/Assets/product-11.jpg" alt="">
+                    <p class="barang">Leeodo sepatu slip on pria santai</p>
+                    <br>
+                    <span class="harga"><b><h3>Rp15.000</h3></b></span>
+                    <div class="kedip">
+                       <h3>Buy</h3>
+                    </div>
+                    
+                </div>
+                <div class="col" onclick="buy('Jeans Hitam', 17000)">
+                    <img src="assets/images/Assets/product-12.jpg" alt="">
+                    <p class="barang">Hipster celana jeans warna hitam pekat</p>
+                    <br>
+                    <span class="harga"><b><h3>Rp122.000</h3></b></span>
+                    <div class="kedip">
+                       <h3>Buy</h3>
+                    </div>
+               
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+            <h5 class="copy">&copy; Boni commerse <span id="year"></span>. | Cuyshop</h5>
+    </footer>
+
+    <script src="assets/source.js"></script>
+</body>
+</html>
