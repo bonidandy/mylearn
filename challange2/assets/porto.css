@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbar{
+    cursor: pointer;
+    display: flex;
+    margin-right: 50px; 
+    padding: 0px;
+
+}
+
+.navbar li{
+    margin-right: 25px;
+}
+
+body{
+    background-color: #F7F8FC;
+    /* height: 500px; */
+}
+
+.test{
+    display: flex;
+    justify-content: center;
+}
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 250px;
+    width: 1150px;
+    margin-top: 35px;
+    /* margin-left: 50px; */
+    /* margin : 50px; */
+    background-color: white;
+}
+
+.profile{
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.pict{
+    padding-left: 10px;
+}
+
+.prof1{
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+
+
+.prof1 h5{
+    margin-left: 2px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.tombol{
+    margin-top: 60px;
+}
+
+.kontak{
+    padding: 9px 14px;
+    background-color: #0000FA;
+    border-radius: 3px;
+    color: white;
+}
+
+.resume{
+    margin-left: 15px;
+    border-radius: 3px;
+    padding: 9px 14px;
+    border: 1px solid #6B8859;
+    color: #6B8859;
+}
+
+
+.line{
+    border: 1px solid black;
+    height: 130px;
+    width: 0px;
+    margin-right: 20px;
+}
+
+.bio{
+    display: flex;
+    flex-direction: column;
+    color: rgb(0,0,0);
+    line-height: 25px;
+    font-weight: 50px;
+}
+
+.content{
+    display:flex;
+}
+
+.data{
+    line-height: 25px;
+    margin-bottom: 10px;
+    margin-right: 300px;
+}
+
+.test2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.container2{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    height: 500px;
+    width: 1150px;
+    margin-top: 35px;
+    /* margin-left: 50px; */
+    /* margin : 50px; */
+    background-color: white;
+}
+
+.buttn{
+    background-color: #3A7815;
+    color: white;
+}
