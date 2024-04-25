@@ -17,7 +17,7 @@ exit.addEventListener('click', () => {
 
 buttonSearch.addEventListener('click', async function (event) {
     const search = document.querySelector(".cari")
-    event.preventDefault() //untuk menghindari sifat default dari tag form
+    event.preventDefault() //untuk menghindari sifat default dari tag form di html
     let isiFilm = await getFilm(search.value)
     isiFilm.sort((a, b) => b.Year.localeCompare(a.Year))
     uiFilm(isiFilm)
