@@ -73,7 +73,6 @@ header{
 
 .search input{
     padding-left: 0.625em;
-    /* overflow: hidden; */
     width: 50rem;
 }
 
@@ -91,7 +90,6 @@ header{
 .log{
     cursor: pointer;
     display: flex;
-    /* color: black; */
     padding-right: 25px;
     align-items: center;
 }
@@ -117,9 +115,6 @@ header{
     opacity: 0.6;
 }
 
-
-
-
 .container-2{
     height: 500px;
     display: grid;
@@ -130,7 +125,6 @@ header{
 }
 
 .mid{
-    /* margin-top: 80px; */
     text-align: center;
     font-size: 3.44rem;
 }
@@ -182,14 +176,12 @@ footer{
     background-color: black;
     display: grid;
     align-content: center;
-    /* justify-content: center; */
 }
 
 .sosmed{
     display: flex;
     justify-content: space-between;
     background-color: black;
-    /* color: blue; */
     color: white;
     padding: 0px 50px;
 }
@@ -238,7 +230,6 @@ footer{
         display: block;
     }
     .sosmed{
-        /* min-height: 100%; */
         display: block;
     }
     .logo{
