@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="./assets/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/custom.css">
+
+    <title>SagiMovie</title>
+</head>
+
+<body class="bg-[rgb(38,54,75)] text-[#9CA3A6]">
+
+    <nav>
+        <span class="absolute cursor-pointer top-5 text-4xl left-5 open">
+            <i class="fa-solid fa-bars sm:hidden"></i>
+        </span>
+        <div class="bg-[#22283C] fixed mt-0 mb-0 w-80 h-screen left-[-400px] md:left-0 ease-in sidenav">
+            <span class="md:hidden cursor-pointer">
+                <div class="fa-solid fa-x fa-2xl flex justify-end mt-9 mr-4 exit"></div>
+            </span>
+            <h1 class="text-5xl flex justify-center mt-2 cursor-pointer"><span
+                    class="text-[#118F93] font-bold">S</span>agi<span class="text-[#118F93] font-bold">M</span>ovie</h1>
+            <hr class="mt-7 border-[rgb(38,54,75)]">
+
+            <ul class="flex flex-col justify-between list-none h-2/4 ml-5 mt-8 ">
+
+                <div class="flex hover:text-[#118F93] cursor-pointer ">
+                    <span class="mt-1 fa-solid fa-house"></span>
+                    <li class="ml-5"><a href="">Home</a></li>
+                    <!-- <div class="border-x-2 justify-end rounded-md border-[#9CA3A6] hover:border-[#118F93]"></div> -->
+                </div>
+
+                <div class="flex hover:text-[#118F93] cursor-pointer">
+                    <span class="mt-1 fa-solid fa-video"></span>
+                    <li class="ml-5 "><a href="">Title</a></li>
+                </div>
+
+                <div class="flex hover:text-[#118F93] cursor-pointer">
+                    <span class="mt-1 fa-regular fa-calendar-days"></span>
+                    <li class="ml-5"><a href="">Year</a></li>
+                </div>
+
+                <div class="flex hover:text-[#118F93] cursor-pointer">
+                    <span class="mt-2 fa-solid fa-ticket"></span>
+                    <li class="ml-5"><a href="">Type</a></li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="flex w-auto sm:justify-center justify-end pt-5 mr-4 sm:w-9/12 sm:ml-[18.75rem] ">
+        <form class="p-1 flex  leading-3 rounded-lg border-2 border-[#22283C] hover:border-[#118F93] search">
+            <input type="search" placeholder="Search film" class=" outline-none rounded-sm h-7 cari bg-[rgb(38,54,75)]">
+            <button class="fa-solid fa-magnifying-glass buttonSearch fa-xl "></button>
+        </form>
+    </div>
+
+    <div class="cardContainer flex justify-center flex-row mt-5 flex-wrap sm:w-9/12 sm:ml-[18.75rem]">
+
+    </div>
+
+    <footer class="bg-[#118F93] text-white flex justify-center items-center absolute w-full h-10">
+        <h5 class="">copyright &copy; 2024 Sagi</h5>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

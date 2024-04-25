@@ -1,0 +1,17 @@
+.search input {
+    width: 0px;
+}
+
+.search:hover input{
+    width: 10rem;
+}
+
+@media (min-width: 640px ) {
+    .search input {
+        width: 30rem;
+    }
+
+    .search:hover input{
+        width: 30rem;
+    }
+}
