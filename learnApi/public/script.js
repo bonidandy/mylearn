@@ -49,7 +49,7 @@ window.onload = async function () {
 function kartu(film) {
     return `
     <div class="bg-[rgb(47,69,93)] m-5 w-60 h-[25rem] cursor-pointer">
-        <div class="flex justify-center items-center h-full flex-col">
+        <div class="flex justify-center items-center h-full flex-col hover:shadow-lg hover:shadow-cyan-500/50">
             <img src="${film.Poster}" alt="" class="h-80 w-56">
             <h5>${film.Title}</h5>
             <h5>${film.Year}</h5>
@@ -58,15 +58,3 @@ function kartu(film) {
     `
 }
 
-
-function kartu(film) {
-    return `
-    <div class="bg-[rgb(47,69,93)] m-5 w-60 h-[25rem] cursor-pointer">
-        <div class="flex justify-center items-center h-full flex-col">
-            <img src="${film.Poster}" alt="" class="h-80 w-56">
-            <h5>${film.Title}</h5>
-            <h5>${film.Year}</h5>
-        </div>
-    </div>
-    `
-}
