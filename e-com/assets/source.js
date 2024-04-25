@@ -7,5 +7,5 @@ function buy(product_name) {
 }
 
 function chat() {
-    alert('halo min saya mau tanya nih')
+    alert('halo min saya mau tanya nich')
 }
