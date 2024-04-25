@@ -41,6 +41,7 @@ function getFilm(cari) {
 
 window.onload = async function () {
     let defaultFilm = await getFilm("Harry potter"); // Misalnya, film default "Batman"
+    defaultFilm.sort((a, b) => b.Year.localeCompare(a.Year))
     uiFilm(defaultFilm);
 }
 
